@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="Atividade12.js"></script>
+    <link href="Atividade12.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <form name="formulario1" method="POST" id="formulario1" onsubmit="return validar();" >
+        <h1 style="text-align:center">Formulario Principal</h1>
+        <div>
+        <p style="margin-left: 10px;">  Nome</p>
+        <input name="nome" type="text" id="idNome" size="52" maxlength="150">
+        <br>
+        <p style="margin-left: 10px;">  E-mail</p>
+        <input name="idEmail" type="email" id="idEmail" size="52" maxlength="150">
+        <br>
+        <p style="margin-left: 10px;">  Comentário</p>   
+        <textarea style="margin-left: 10px;" id="idComentario" name="comentario" placeholder="Escreva algo..." cols="80" rows="10" style="height:200px"></textarea>
+        <br>
+        <h4>Pesquisa:</h4>
+        <p>Primeira vez visitando o site?</p>
+        <input type="radio" name="pesquisa" value="1">
+        <label class="radio-label">Sim</label>
+        <input type="radio" name="pesquisa" value="2">
+        <label class="radio-label">Não</label>
+        <br>
+        <input name="Submit" type="submit" form="formulario1" value="Submit">
+        <input name="Reset" type="reset" form="formulario1" value="Redefinir">
+    </div>
+    </form>
+</body>
+</html>

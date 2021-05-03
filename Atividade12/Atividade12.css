@@ -1,0 +1,28 @@
+form {
+    background-color: aquamarine;
+    width: 750px;
+    height: 600px;
+  }
+
+  .radio-label {
+    display: inline-block;
+     vertical-align: top;
+     margin-right: 3%;
+ }
+ .radio-input {
+    display: inline-block;
+     vertical-align: top;
+ }
+ input[type=text]{
+     margin-left: 10px;
+ }
+
+ input[type=email]{
+    margin-left: 10px;
+}
+
+
+input[type=textarea]{
+    margin-left: 10px;
+}
+
